@@ -26,10 +26,8 @@ struct Call: Codable {
 }
 
 struct Response: Codable {
-//    let Metadata: Metadata
     let Call: [Call]
 }
-
 
 struct Output: Codable {
     let response: Response
@@ -43,8 +41,3 @@ struct Metadata: Codable {
     let NextPageUri: String?
 }
 
-//struct RecentCallData {
-//    let duration: String
-//    let callType: String
-//    let date: String
-//}

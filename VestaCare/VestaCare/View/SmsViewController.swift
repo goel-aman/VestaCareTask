@@ -15,7 +15,6 @@ class SmsViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
     @IBAction func VerifyButton(_ sender: Any) {
         if let text = codeField.text, !text.isEmpty {
             AuthManager.shared.verifyCode(smsCode: text) { [weak self] success in
