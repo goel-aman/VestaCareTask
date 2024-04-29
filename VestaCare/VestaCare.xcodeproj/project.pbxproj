@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8FEC042BDC146C008F03F9 /* DialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC032BDC146C008F03F9 /* DialViewController.swift */; };
+		1E8FEC062BDC1482008F03F9 /* RecentCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC052BDC1482008F03F9 /* RecentCallViewController.swift */; };
+		1E8FEC092BDCC60D008F03F9 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC082BDCC60D008F03F9 /* KeyCell.swift */; };
+		1E8FEC472BDD0F08008F03F9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC462BDD0F08008F03F9 /* NetworkManager.swift */; };
+		1E8FEC492BDD0F59008F03F9 /* CallsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC482BDD0F59008F03F9 /* CallsModel.swift */; };
+		1E8FEC4E2BDD105A008F03F9 /* CallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC4D2BDD105A008F03F9 /* CallTableViewCell.swift */; };
+		1E8FEC502BDD154C008F03F9 /* CallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC4F2BDD154C008F03F9 /* CallsViewModel.swift */; };
+		1E8FEC572BDE3C64008F03F9 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FEC562BDE3C64008F03F9 /* AuthManager.swift */; };
+		1ECD2F3F2BDBA6FA00FE28B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F3E2BDBA6FA00FE28B5 /* AppDelegate.swift */; };
+		1ECD2F412BDBA6FA00FE28B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F402BDBA6FA00FE28B5 /* SceneDelegate.swift */; };
+		1ECD2F432BDBA6FA00FE28B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F422BDBA6FA00FE28B5 /* ViewController.swift */; };
+		1ECD2F462BDBA6FA00FE28B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD2F452BDBA6FA00FE28B5 /* Base */; };
+		1ECD2F482BDBA6FD00FE28B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD2F472BDBA6FD00FE28B5 /* Assets.xcassets */; };
+		1ECD2F4B2BDBA6FD00FE28B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD2F4A2BDBA6FD00FE28B5 /* Base */; };
+		1ECD2F562BDBA6FD00FE28B5 /* VestaCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F552BDBA6FD00FE28B5 /* VestaCareTests.swift */; };
+		1ECD2F602BDBA6FD00FE28B5 /* VestaCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F5F2BDBA6FD00FE28B5 /* VestaCareUITests.swift */; };
+		1ECD2F622BDBA6FD00FE28B5 /* VestaCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD2F612BDBA6FD00FE28B5 /* VestaCareUITestsLaunchTests.swift */; };
+		1EF373082BDE4F13005029AB /* SmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF373072BDE4F13005029AB /* SmsViewController.swift */; };
+		1EF3730A2BDE5A2F005029AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EF373092BDE5A2F005029AB /* GoogleService-Info.plist */; };
+		1EF3730C2BDE5D8E005029AB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3730B2BDE5D8E005029AB /* TabBarViewController.swift */; };
+		82B98F217751D68E4D236762 /* Pods_VestaCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5464E7A08BD9BCD703EEEBEF /* Pods_VestaCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ECD2F522BDBA6FD00FE28B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ECD2F332BDBA6FA00FE28B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ECD2F3A2BDBA6FA00FE28B5;
+			remoteInfo = VestaCare;
+		};
+		1ECD2F5C2BDBA6FD00FE28B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ECD2F332BDBA6FA00FE28B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ECD2F3A2BDBA6FA00FE28B5;
+			remoteInfo = VestaCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8FEC032BDC146C008F03F9 /* DialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialViewController.swift; sourceTree = "<group>"; };
+		1E8FEC052BDC1482008F03F9 /* RecentCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCallViewController.swift; sourceTree = "<group>"; };
+		1E8FEC082BDCC60D008F03F9 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
+		1E8FEC462BDD0F08008F03F9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1E8FEC482BDD0F59008F03F9 /* CallsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsModel.swift; sourceTree = "<group>"; };
+		1E8FEC4D2BDD105A008F03F9 /* CallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTableViewCell.swift; sourceTree = "<group>"; };
+		1E8FEC4F2BDD154C008F03F9 /* CallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewModel.swift; sourceTree = "<group>"; };
+		1E8FEC562BDE3C64008F03F9 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1ECD2F3B2BDBA6FA00FE28B5 /* VestaCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VestaCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECD2F3E2BDBA6FA00FE28B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ECD2F402BDBA6FA00FE28B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ECD2F422BDBA6FA00FE28B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ECD2F452BDBA6FA00FE28B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ECD2F472BDBA6FD00FE28B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ECD2F4A2BDBA6FD00FE28B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ECD2F4C2BDBA6FD00FE28B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECD2F512BDBA6FD00FE28B5 /* VestaCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestaCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECD2F552BDBA6FD00FE28B5 /* VestaCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestaCareTests.swift; sourceTree = "<group>"; };
+		1ECD2F5B2BDBA6FD00FE28B5 /* VestaCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestaCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECD2F5F2BDBA6FD00FE28B5 /* VestaCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestaCareUITests.swift; sourceTree = "<group>"; };
+		1ECD2F612BDBA6FD00FE28B5 /* VestaCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestaCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EF373072BDE4F13005029AB /* SmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsViewController.swift; sourceTree = "<group>"; };
+		1EF373092BDE5A2F005029AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EF3730B2BDE5D8E005029AB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5464E7A08BD9BCD703EEEBEF /* Pods_VestaCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VestaCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB149DD26C9D7B006D39F05 /* Pods-VestaCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VestaCare.debug.xcconfig"; path = "Target Support Files/Pods-VestaCare/Pods-VestaCare.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE8CCA7592C12D3622DAF37 /* Pods-VestaCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VestaCare.release.xcconfig"; path = "Target Support Files/Pods-VestaCare/Pods-VestaCare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ECD2F382BDBA6FA00FE28B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B98F217751D68E4D236762 /* Pods_VestaCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F4E2BDBA6FD00FE28B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F582BDBA6FD00FE28B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B59C907A36EFEE4D137595E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB149DD26C9D7B006D39F05 /* Pods-VestaCare.debug.xcconfig */,
+				DFE8CCA7592C12D3622DAF37 /* Pods-VestaCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1E8FEC072BDC148B008F03F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F422BDBA6FA00FE28B5 /* ViewController.swift */,
+				1EF373072BDE4F13005029AB /* SmsViewController.swift */,
+				1E8FEC4D2BDD105A008F03F9 /* CallTableViewCell.swift */,
+				1E8FEC052BDC1482008F03F9 /* RecentCallViewController.swift */,
+				1E8FEC032BDC146C008F03F9 /* DialViewController.swift */,
+				1E8FEC082BDCC60D008F03F9 /* KeyCell.swift */,
+				1EF3730B2BDE5D8E005029AB /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E8FEC4A2BDD0FDF008F03F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FEC482BDD0F59008F03F9 /* CallsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E8FEC512BDD155C008F03F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FEC4F2BDD154C008F03F9 /* CallsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1ECD2F322BDBA6FA00FE28B5 = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F3D2BDBA6FA00FE28B5 /* VestaCare */,
+				1ECD2F542BDBA6FD00FE28B5 /* VestaCareTests */,
+				1ECD2F5E2BDBA6FD00FE28B5 /* VestaCareUITests */,
+				1ECD2F3C2BDBA6FA00FE28B5 /* Products */,
+				0B59C907A36EFEE4D137595E /* Pods */,
+				7E12011A1CE367E997958E13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ECD2F3C2BDBA6FA00FE28B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F3B2BDBA6FA00FE28B5 /* VestaCare.app */,
+				1ECD2F512BDBA6FD00FE28B5 /* VestaCareTests.xctest */,
+				1ECD2F5B2BDBA6FD00FE28B5 /* VestaCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ECD2F3D2BDBA6FA00FE28B5 /* VestaCare */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F3E2BDBA6FA00FE28B5 /* AppDelegate.swift */,
+				1EF373092BDE5A2F005029AB /* GoogleService-Info.plist */,
+				1E8FEC562BDE3C64008F03F9 /* AuthManager.swift */,
+				1ECD2F402BDBA6FA00FE28B5 /* SceneDelegate.swift */,
+				1E8FEC4A2BDD0FDF008F03F9 /* Model */,
+				1E8FEC512BDD155C008F03F9 /* ViewModel */,
+				1E8FEC072BDC148B008F03F9 /* View */,
+				1ECD2F442BDBA6FA00FE28B5 /* Main.storyboard */,
+				1E8FEC462BDD0F08008F03F9 /* NetworkManager.swift */,
+				1ECD2F472BDBA6FD00FE28B5 /* Assets.xcassets */,
+				1ECD2F492BDBA6FD00FE28B5 /* LaunchScreen.storyboard */,
+				1ECD2F4C2BDBA6FD00FE28B5 /* Info.plist */,
+			);
+			path = VestaCare;
+			sourceTree = "<group>";
+		};
+		1ECD2F542BDBA6FD00FE28B5 /* VestaCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F552BDBA6FD00FE28B5 /* VestaCareTests.swift */,
+			);
+			path = VestaCareTests;
+			sourceTree = "<group>";
+		};
+		1ECD2F5E2BDBA6FD00FE28B5 /* VestaCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD2F5F2BDBA6FD00FE28B5 /* VestaCareUITests.swift */,
+				1ECD2F612BDBA6FD00FE28B5 /* VestaCareUITestsLaunchTests.swift */,
+			);
+			path = VestaCareUITests;
+			sourceTree = "<group>";
+		};
+		7E12011A1CE367E997958E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5464E7A08BD9BCD703EEEBEF /* Pods_VestaCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ECD2F3A2BDBA6FA00FE28B5 /* VestaCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECD2F652BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCare" */;
+			buildPhases = (
+				3C97E1BE1504C5FAD06A4F3F /* [CP] Check Pods Manifest.lock */,
+				1ECD2F372BDBA6FA00FE28B5 /* Sources */,
+				1ECD2F382BDBA6FA00FE28B5 /* Frameworks */,
+				1ECD2F392BDBA6FA00FE28B5 /* Resources */,
+				2A9C240BF159536BF2E9723B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VestaCare;
+			productName = VestaCare;
+			productReference = 1ECD2F3B2BDBA6FA00FE28B5 /* VestaCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ECD2F502BDBA6FD00FE28B5 /* VestaCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECD2F682BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCareTests" */;
+			buildPhases = (
+				1ECD2F4D2BDBA6FD00FE28B5 /* Sources */,
+				1ECD2F4E2BDBA6FD00FE28B5 /* Frameworks */,
+				1ECD2F4F2BDBA6FD00FE28B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ECD2F532BDBA6FD00FE28B5 /* PBXTargetDependency */,
+			);
+			name = VestaCareTests;
+			productName = VestaCareTests;
+			productReference = 1ECD2F512BDBA6FD00FE28B5 /* VestaCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ECD2F5A2BDBA6FD00FE28B5 /* VestaCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECD2F6B2BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCareUITests" */;
+			buildPhases = (
+				1ECD2F572BDBA6FD00FE28B5 /* Sources */,
+				1ECD2F582BDBA6FD00FE28B5 /* Frameworks */,
+				1ECD2F592BDBA6FD00FE28B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ECD2F5D2BDBA6FD00FE28B5 /* PBXTargetDependency */,
+			);
+			name = VestaCareUITests;
+			productName = VestaCareUITests;
+			productReference = 1ECD2F5B2BDBA6FD00FE28B5 /* VestaCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ECD2F332BDBA6FA00FE28B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1ECD2F3A2BDBA6FA00FE28B5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1ECD2F502BDBA6FD00FE28B5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1ECD2F3A2BDBA6FA00FE28B5;
+					};
+					1ECD2F5A2BDBA6FD00FE28B5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1ECD2F3A2BDBA6FA00FE28B5;
+					};
+				};
+			};
+			buildConfigurationList = 1ECD2F362BDBA6FA00FE28B5 /* Build configuration list for PBXProject "VestaCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ECD2F322BDBA6FA00FE28B5;
+			productRefGroup = 1ECD2F3C2BDBA6FA00FE28B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ECD2F3A2BDBA6FA00FE28B5 /* VestaCare */,
+				1ECD2F502BDBA6FD00FE28B5 /* VestaCareTests */,
+				1ECD2F5A2BDBA6FD00FE28B5 /* VestaCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ECD2F392BDBA6FA00FE28B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECD2F482BDBA6FD00FE28B5 /* Assets.xcassets in Resources */,
+				1EF3730A2BDE5A2F005029AB /* GoogleService-Info.plist in Resources */,
+				1ECD2F4B2BDBA6FD00FE28B5 /* Base in Resources */,
+				1ECD2F462BDBA6FA00FE28B5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F4F2BDBA6FD00FE28B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F592BDBA6FD00FE28B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9C240BF159536BF2E9723B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VestaCare/Pods-VestaCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VestaCare/Pods-VestaCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VestaCare/Pods-VestaCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C97E1BE1504C5FAD06A4F3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VestaCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ECD2F372BDBA6FA00FE28B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8FEC4E2BDD105A008F03F9 /* CallTableViewCell.swift in Sources */,
+				1E8FEC042BDC146C008F03F9 /* DialViewController.swift in Sources */,
+				1E8FEC502BDD154C008F03F9 /* CallsViewModel.swift in Sources */,
+				1E8FEC062BDC1482008F03F9 /* RecentCallViewController.swift in Sources */,
+				1EF373082BDE4F13005029AB /* SmsViewController.swift in Sources */,
+				1ECD2F432BDBA6FA00FE28B5 /* ViewController.swift in Sources */,
+				1E8FEC492BDD0F59008F03F9 /* CallsModel.swift in Sources */,
+				1E8FEC472BDD0F08008F03F9 /* NetworkManager.swift in Sources */,
+				1E8FEC092BDCC60D008F03F9 /* KeyCell.swift in Sources */,
+				1E8FEC572BDE3C64008F03F9 /* AuthManager.swift in Sources */,
+				1EF3730C2BDE5D8E005029AB /* TabBarViewController.swift in Sources */,
+				1ECD2F3F2BDBA6FA00FE28B5 /* AppDelegate.swift in Sources */,
+				1ECD2F412BDBA6FA00FE28B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F4D2BDBA6FD00FE28B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECD2F562BDBA6FD00FE28B5 /* VestaCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ECD2F572BDBA6FD00FE28B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECD2F602BDBA6FD00FE28B5 /* VestaCareUITests.swift in Sources */,
+				1ECD2F622BDBA6FD00FE28B5 /* VestaCareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ECD2F532BDBA6FD00FE28B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ECD2F3A2BDBA6FA00FE28B5 /* VestaCare */;
+			targetProxy = 1ECD2F522BDBA6FD00FE28B5 /* PBXContainerItemProxy */;
+		};
+		1ECD2F5D2BDBA6FD00FE28B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ECD2F3A2BDBA6FA00FE28B5 /* VestaCare */;
+			targetProxy = 1ECD2F5C2BDBA6FD00FE28B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ECD2F442BDBA6FA00FE28B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ECD2F452BDBA6FA00FE28B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ECD2F492BDBA6FD00FE28B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ECD2F4A2BDBA6FD00FE28B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ECD2F632BDBA6FD00FE28B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ECD2F642BDBA6FD00FE28B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ECD2F662BDBA6FD00FE28B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB149DD26C9D7B006D39F05 /* Pods-VestaCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VestaCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ECD2F672BDBA6FD00FE28B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE8CCA7592C12D3622DAF37 /* Pods-VestaCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VestaCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ECD2F692BDBA6FD00FE28B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VestaCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VestaCare";
+			};
+			name = Debug;
+		};
+		1ECD2F6A2BDBA6FD00FE28B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VestaCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VestaCare";
+			};
+			name = Release;
+		};
+		1ECD2F6C2BDBA6FD00FE28B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VestaCare;
+			};
+			name = Debug;
+		};
+		1ECD2F6D2BDBA6FD00FE28B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLM4H4R54R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.personal.VestaCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VestaCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ECD2F362BDBA6FA00FE28B5 /* Build configuration list for PBXProject "VestaCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECD2F632BDBA6FD00FE28B5 /* Debug */,
+				1ECD2F642BDBA6FD00FE28B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECD2F652BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECD2F662BDBA6FD00FE28B5 /* Debug */,
+				1ECD2F672BDBA6FD00FE28B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECD2F682BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECD2F692BDBA6FD00FE28B5 /* Debug */,
+				1ECD2F6A2BDBA6FD00FE28B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECD2F6B2BDBA6FD00FE28B5 /* Build configuration list for PBXNativeTarget "VestaCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECD2F6C2BDBA6FD00FE28B5 /* Debug */,
+				1ECD2F6D2BDBA6FD00FE28B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ECD2F332BDBA6FA00FE28B5 /* Project object */;
+}
